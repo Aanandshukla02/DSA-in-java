@@ -1,18 +1,19 @@
 public class butterflypattern {
+    // Method to print butterfly pattern based on input 'n'
     public static void fly(int n) {
         // 1st half
         for (int i = 1; i <= n; i++) {
-            // stars -i
+            // stars - i
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
 
-            // spaces - 2*(n-i)
+            // spaces - 2 * (n - i)
             for (int j = 1; j <= 2 * (n - i); j++) {
                 System.out.print(" ");
             }
 
-            // stars -i
+            // stars - i
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
@@ -21,16 +22,17 @@ public class butterflypattern {
 
         // 2nd half
         for (int i = n; i >= 1; i--) {
+            // stars - i
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
 
-            // spaces - 2*(n-i)
+            // spaces - 2 * (n - i)
             for (int j = 1; j <= 2 * (n - i); j++) {
                 System.out.print(" ");
             }
 
-            // stars -i
+            // stars - i
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
@@ -38,6 +40,7 @@ public class butterflypattern {
         }
     }
 
+    // Main method to demonstrate the butterfly pattern with n=5
     public static void main(String[] args) {
         fly(5);
     }
