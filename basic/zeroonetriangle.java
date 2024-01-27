@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class zeroonetriangle {
     public static void triangle(int n) {

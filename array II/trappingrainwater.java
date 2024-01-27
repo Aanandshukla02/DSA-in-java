@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class trappingrainwater {
 
     // Function to calculate trapped rainwater
