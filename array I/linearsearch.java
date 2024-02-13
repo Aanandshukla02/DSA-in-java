@@ -1,5 +1,4 @@
 public class linearsearch {
-
     // Function to perform linear search on an array
     public static int search(int number[], int key) {
         for (int i = 0; i < number.length; i++) {
