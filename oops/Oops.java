@@ -2,7 +2,7 @@ public class Oops {
     public static void main(String[] args) {
         // Creating an instance of the pen class
         pen p1 = new pen();
-
+        
         // Setting the color of the pen to "blue"
         p1.setcolor("blue");
         // Printing the color of the pen
