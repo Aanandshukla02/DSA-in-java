@@ -20,8 +20,10 @@ public class printnumber321 {
     }
     
     // Main method where the program starts execution
+   
     public static void main(String[] args) {
         // Creating a Scanner object named "sc" to take user input from the console
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         
         // Prompting the user to enter an integer and storing it in variable "num"
