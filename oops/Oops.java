@@ -35,6 +35,7 @@ public class Oops {
 
 class bankaccount {
     String username;
+    @SuppressWarnings("unused")
     private String password; // 'password' field is private
 
     // Public method to set the password
