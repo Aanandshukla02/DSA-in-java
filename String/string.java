@@ -29,6 +29,7 @@ public class string {
         System.out.println("Full Name :"+fullname );
 
         printname(fullname);
+       
         
         
     }
